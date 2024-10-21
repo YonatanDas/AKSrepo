@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-world-app-service
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-resource-group: mc_my-westus-resource-group_my-aks-cluster-westus_westus
+spec:
+  type: LoadBalancer
+  loadBalancerIP: 13.93.239.128  # Updated to your new public IP
+  selector:
+    app: hello-world-app
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80

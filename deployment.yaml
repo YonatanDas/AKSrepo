@@ -6,7 +6,7 @@ metadata:
     service.beta.kubernetes.io/azure-load-balancer-resource-group: mc_my-westus-resource-group_my-aks-cluster-westus_westus
 spec:
   type: LoadBalancer
-  loadBalancerIP: 13.93.239.128  # Updated to your new public IP
+  loadBalancerIP: 13.93.239.128
   selector:
     app: hello-world-app
   ports:

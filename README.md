@@ -94,4 +94,3 @@ File Structure:
 |-- azure-pipelines.yml
 |-- README.md
 
-This document clearly explains each part of the project, lists the challenges you faced (with the Azure free-tier restriction), and includes a structured overview. You can copy and edit this to fit your specific details, attach your files, and submit to your tech lead.

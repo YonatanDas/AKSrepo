@@ -4,7 +4,7 @@ DevOps Junior Take-Home Task
 
 Overview
 
-This document outlines the steps I followed to complete the DevOps Junior take-home task. The assignment involves setting up infrastructure on Azure using Terraform, deploying a web application to a Kubernetes cluster, and configuring a CI/CD pipeline using Azure DevOps.
+This document will show the steps I followed to complete the DevOps Junior take-home task. The assignment involves setting up infrastructure on Azure using Terraform, deploying a web application to a Kubernetes cluster, and configuring a CI/CD pipeline using Azure DevOps.
 
 1. Infrastructure Setup (Terraform)
 

@@ -12,15 +12,18 @@ Steps:
 
 	1.	Initialize Terraform:
 	•	Used terraform init to initialize the working directory.
-	2.	Resource Provisioning:
+	
+2.	Resource Provisioning:
 	•	Created a Kubernetes Cluster (AKS) with the following resources:
 	•	Resource Group
 	•	AKS Cluster
 	•	Azure Container Registry (ACR)
 	•	Networking and security components
-	3.	Apply the Configuration:
+	
+3.	Apply the Configuration:
 	•	Ran terraform apply to deploy the infrastructure on Azure.
-	4.	Terraform Files:
+	
+4.	Terraform Files:
 	•	The configuration is modular, and variables are stored separately. The main components are located in the following files:
 	•	main.tf: Defines resources.
 	•	variables.tf: Defines variables used across modules.
@@ -36,9 +39,12 @@ Challenges and Resolutions:
 Steps:
 
 	1.	Deployment File: A deployment.yaml file is created to deploy a simple “Hello World” web application.
-	2.	Service Configuration: A service.yaml file defines the external IP or LoadBalancer to expose the application.
-	3.	Ingress: Not implemented due to time constraints.
-	4.	Kubernetes Files:
+	
+2.	Service Configuration: A service.yaml file defines the external IP or LoadBalancer to expose the application.
+	
+3.	Ingress: Not implemented due to time constraints.
+	
+4.	Kubernetes Files:
 	•	deployment.yaml: Configures the application pods.
 	•	service.yaml: Exposes the application via an external service.
 
@@ -57,7 +63,8 @@ Steps:
 	•	Build the Docker image of the web application.
 	•	Push the image to Azure Container Registry (ACR).
 	•	Deploy the image to the AKS cluster.
-	2.	Pipeline Stages:
+	
+2.	Pipeline Stages:
 	•	Build Stage: Uses the Dockerfile to build the image.
 	•	Deploy Stage: Deploys the application using kubectl commands to the AKS cluster.
 	3.	YAML Pipeline Configuration:

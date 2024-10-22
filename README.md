@@ -1,6 +1,4 @@
 # AKSrepo
- 
-To complete the documentation efficiently, we’ll focus on structuring everything you have and explaining any limitations (like the free-tier restriction) clearly. Here’s a simple, organized way to structure your README document:
 
 DevOps Junior Take-Home Task
 
